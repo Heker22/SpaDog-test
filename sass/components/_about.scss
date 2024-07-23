@@ -1,0 +1,41 @@
+.about{
+    background-color: $section-background;
+    }
+    .about-box{
+    display: flex;
+    }
+    .about-wrap{
+    padding-top: 98px;
+    padding-bottom: 99px;
+    margin-left: 78px;
+    }
+    .about-subtitle{
+    color: $text-color;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+    .about-text{
+    color: $text-color;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    }
+    .about-btn{
+    border: none;
+    background-color: $bttn-color;
+    padding: 15px 80px;
+    color: var $text-color;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.44px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .about-btn:hover{
+        border: 1px solid $bttn-color ;
+        background-color: $nav-color ;
+        color: $bttn-color ;
+    }

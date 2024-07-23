@@ -1,0 +1,48 @@
+.services{
+    background-color: $section-background;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   }
+   .servicestitle{
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: capitalize;
+   text-align: center;
+   margin-bottom: 40px;
+   }
+   .services-text{
+   font-size: 32px;
+   font-weight: 400;
+   text-align: center;
+   margin-bottom: 56px;
+   }
+   .service-list{
+   display:flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+   }
+   .services-subtitle{
+   margin-top: 25px;
+   font-size: 24px;
+   font-weight: 600;
+   }
+   .services-bttn{
+   font-size: 24px;
+   font-weight: 400;
+   letter-spacing: 1.44px;
+   font-family: 'Oswald' , sans-serif;
+   background-color: transparent;
+   padding: 15px 80px;
+   border: 3px solid $bttn-color;
+   cursor: pointer;
+   border-radius: 5px;
+   }
+   .services-bttn:hover{
+    color: $text-color;
+    background-color: $bttn-color;
+    border: 3px solid $bttn-color ;
+   }
+   .services-box{
+   display: flex;
+   justify-content: center;
+   }

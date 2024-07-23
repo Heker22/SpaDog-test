@@ -1,0 +1,17 @@
+.footer{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: $header-background;
+    }
+    .footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .footer-text{
+    color: $section-background;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+    }

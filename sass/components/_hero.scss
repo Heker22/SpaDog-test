@@ -1,0 +1,33 @@
+.hero-title{
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+.hero-box{
+display: flex;
+justify-content: space-between;
+}
+.hero-subtitle{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 80px;
+    color: $text-color;
+    background-color: $bttn-color;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid $bttn-color ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid $bttn-color ;
+    background-color: $nav-color ;
+    color: $bttn-color ;
+}
